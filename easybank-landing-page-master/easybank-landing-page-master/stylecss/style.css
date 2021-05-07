@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.requestb:hover,.request:hover,.button2:hover{
+    background: repeating-linear-gradient(hsl(136, 65%, 51%),hsl(136, 65%, 51%));
+}
+
+
+
+
+@media(min-width:801px){
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1.0rem;
+        position: relative;
+        z-index: 10;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul li{
+        list-style: none;
+        margin: 0 1.7rem;
+    }
+
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover{
+        border-bottom: hsl(136, 65%, 51%) 2px solid ;
+        padding-bottom :1rem;
+    }
+
+    .request{
+        text-decoration: none;
+        color: white;
+        background: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        border-radius: 25px;
+        padding: .5rem;
+    }
+
+}
+
+
+
+@media(max-width:800px) {
+    nav{
+        background: white;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 1rem 0 0 .5rem;
+        justify-content: center;
+    }
+
+    .brand-name{
+        position: relative;
+    }
+
+    .bar{
+        display: flex;
+        flex-direction: column;
+        background: black;
+        width: 25px;
+        height: 3px;
+        margin: 3px;
+        cursor: pointer;
+        
+    }
+
+    .toggle-button{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+    }
+
+    .navbar-lists{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+
+
+
+    nav ul li{
+        margin: 1.5rem 0;
+    }
+
+    .buttondiv{
+        text-align: center;
+        padding: 1rem 0 2rem 0;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .navbar-lists.slide{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: white;
+        position: relative;
+        width: 80%;
+        transition: all .5s ease;
+        margin: auto;
+    }
+
+
+    
+    .request{
+        text-decoration: none;
+        color: white;
+        background: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        border-radius: 25px;
+        padding: .5rem;
+    }
+
+}
+
+
+
+/*fixed but responsive*/
+
+
+
+
+@media (min-width:801px){
+    .gridc{
+        margin: 0 0 0 4rem ;
+        padding: 0 5rem 0 0;
+    }
+
+    .gridcclone{
+        margin: 0 0 0 4rem ;
+        padding: 0 20rem 0 0;
+        display: none;
+    }
+    
+    .gridd{
+        display: flex;
+        flex-direction: row;
+        margin-left: 4rem;
+    }
+    
+    .divb,.divc,.divd{
+        padding:0 2rem ;
+    }
+    
+    .diva{
+        padding: 0 2rem 0 0;
+    }
+
+    .maingrid2{
+        background-color: hsl(0, 0%, 96%);
+        padding: 3rem 0;
+    }
+}
+
+
+@media (max-width:800px){
+
+    .maingrid2{
+        margin: auto;
+    }
+
+    .gridd{
+        display: block;
+    }
+    
+
+    .diva,.divb,.divc,.divd{
+        text-align: center;
+        padding: 0 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .gridcclone{
+        text-align: center;
+        padding: 0 4rem;
+    }
+
+    .gridc{
+        display: none;
+    }
+
+    .maingrid2{
+        background-color: hsl(0, 0%, 96%);
+        padding: 3rem 0;
+    }
+
+}
+
+
+.maingrid3{
+    background-color: hsl(0, 0%, 97%);
+    padding: 3rem 3rem 8rem;
+}
+
+.gridf{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: hsl(0, 0%, 97%);
+}
+
+.dive,.divh,.divf,.divg{
+    background-color:white ;
+    margin: 0 1rem;
+    border-radius: 10px;
+  
+}
+
+.icong,.icone,.iconf,.iconh{
+    max-width: 100%;
+    border-radius: 10px 10px 0 0; 
+}
+
+
+
+.gride{
+    padding: 0 0 0 4rem;
+}
+
+.claire,.receive,.theworld,.wilson,.treat,.feature,.hutton,.take,.wewant,.robinson,.invite,.after{
+   padding: 0 1rem;
+}
+
+
+@media(max-width:800px){
+    .dive,.divf,.divg,.divh{
+        padding: 1.5rem;
+        margin: 2rem 0;
+    }
+
+    .gridf{
+        display: block;
+    }
+}
+
+
+
+.overall{
+    background:  hsl(233, 26%, 24%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.5rem 2rem;
+}
+
+.lasta{
+    margin: .2rem;
+}
+
+.lasta:hover{
+    background-color: hsl(136, 65%, 51%);
+}
+
+.last1{
+    color: white;
+    background-color: white;
+}
+
+.combine{
+    display: flex;
+    flex-direction: row;
+}
+
+.careerhead{
+    margin: 0 0 0 5rem;
+}
+
+.abouthead,.careerhead{
+    line-height: 2;
+    color: rgb(250, 246, 246);
+}
+
+.under1,.under2{
+    cursor: pointer;
+}
+
+.under1:hover,.under2:hover{
+    color: hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+.requestb{
+    float: right;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    background: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    padding: .5rem;
+}
+
+.rights{
+    color: white;
+}
+
+.attribution{
+    text-align: center;
+    padding: .5rem 0;
+    color: white;
+    background:  hsl(233, 26%, 24%);
+}
+
+@media(max-width:800px){
+    .overall{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lasta{
+        padding: 0 0 2rem 0;
+    }
+
+    .combine{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   }
+
+   .careerhead,.abouthead{
+    line-height: 3;
+    margin: 0;
+   }
+
+   .requestb{
+       float: left;
+   }
+
+   .third{
+    margin-top: 2rem;
+   }
+
+}
